@@ -1,0 +1,154 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <style>
+    .body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      background-color: #f4f4f4;
+    }
+
+    .login-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    .button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="#">
+      <div class="input-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+  </div> -->
+<!-- </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Slideshow</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+  <div class="slideshow">
+    <div class="slideshow-items">
+      <img src="path/to/image1.jpg" alt="Image 1">
+    </div>
+    <div class="slideshow-items">
+      <img src="path/to/image2.jpg" alt="Image 2">
+    </div>
+    <!-- Add more slideshow items as needed -->
+  </div>
+
+  <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
+
+/* Same CSS as the gallery */
+.slideshow {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.slideshow-items {
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.slideshow-items img {
+  width: 100%;
+  height: auto;
+  opacity: 0; /* Initially hide images */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slideshow-items.active img {
+  opacity: 1; /* Show only active image */
+}
+
+const slideshowItems = document.querySelectorAll('.slideshow-items');
+
+let currentIndex = 0;
+const intervalTime = 3000; // Change slide every 3 seconds
+
+function nextSlide() {
+  // Reset all slides to hidden
+  slideshowItems.forEach(item => {
+    item.classList.remove('active');
+  });
+
+  // Show the next slide
+  slideshowItems[currentIndex].classList.add('active');
+
+  // Move to the next slide index
+  currentIndex++;
+
+  // Reset index to the first slide if it exceeds the number of slides
+  if (currentIndex === slideshowItems.length) {
+    currentIndex = 0;
+  }
+
+  setTimeout(nextSlide, intervalTime);
+}
+
+// Start the slideshow
+nextSlide();

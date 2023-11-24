@@ -1,0 +1,37 @@
+<nav>
+             <ul class="nav_link">
+                <li><a href="home.html">Home</a></li>
+                
+                
+                <li><a href="about.html">About</a>
+
+                    <ul id="dropdown">
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="about.html">Resources</a></li>
+                        <li><a href="alumni.html"> Alumni </a></li>
+                    </ul>
+
+                </li>
+
+                <li><a href="info.html">Staff Info</a></li>
+                
+                <li><a href="faculty.html">Faculty</a>
+                
+                    <ul id="dropdown">
+
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="about.html">Resources</a></li> 
+                        <li><a href="alumni.html"> Alumni </a></li>
+               
+                    </ul>
+
+                </li>
+
+                <!-- <li><a href="about.html">Contact</a></li>
+                <li><a href="about.html">News</a></li>
+                <li><a href="about.html">About</a></li> -->
+                <!-- resources. groups. logins. courses.resit registration. -->
+             </ul>
+
+        </nav>
+        <!-- <a class="button" href=""><button>Search</button></a> -->
