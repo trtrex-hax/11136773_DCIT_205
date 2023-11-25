@@ -4,10 +4,39 @@ Introduction
 This project is a remake of the school's website, aimed at enhancing user experience and providing a more intuitive interface for students, teachers, and parents. It incorporates modern design elements, improved navigation, and updated information.
 
 Purpose
-The purpose of this project is to revamp the school website to make it more user-friendly, visually appealing, and informative. It aims to streamline access to important resources, announcements, and school-related information for all stakeholders.
+The purpose of this project is to revamp the school website to make it more user-friendly, visually appealing, and informative as well as add more features to the site which i deem as useful. It aims to streamline access to important resources, announcements, and school-related information for everyone.
+
+
 
 Cloning and Setup Instructions
 To clone and set up the project:
+
+1. in Visual code, open your bash Terminal.
+
+2. while vs code is open, open github repo to fork from in your browser using the link "https://github.com/Daquiver1/DCIT_205_IA"
+
+3. in the DCIT_205_IA bar, find the fork button and click on it.
+
+4. set a name for your repo
+
+5. copy the https link in the local clone section.
+
+6. type git clone https://github.com/Daquiver1/DCIT_205_IA.git
+
+7. Notice a ReadMe.md file in the current folder directory
+
+8. copy your files in a different directory and post it in the folder with the readme file in it.
+
+9. To activate your folder directory, use the command:
+cd 11136773_DCIT205. This folder will become your main branch.
+
+10. Add files using "git add ."
+
+11. commit the files using "git commit -m"
+enter a commit message
+
+12. push using "git push origin main"
+
 
 git clone https://github.com/trtrex-hax/11136773_DCIT_205.git
 
@@ -16,8 +45,11 @@ git clone https://github.com/trtrex-hax/11136773_DCIT_205.git
 Author Information
 Name: Jedidiah Kwame Henaku-Budu
 Student ID: 11136773
-Screenshots
 
+
+Screenshots
+![Alt text](Registrations.png)
+![Alt text](Homepage.png)
 
 
 Learning Outcomes
