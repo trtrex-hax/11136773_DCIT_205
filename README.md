@@ -8,3 +8,24 @@ The purpose of this project is to revamp the school website to make it more user
 
 Cloning and Setup Instructions
 To clone and set up the project:
+
+git clone https://github.com/trtrex-hax/11136773_DCIT_205.git
+
+
+
+Author Information
+Name: Jedidiah Kwame Henaku-Budu
+Student ID: 11136773
+Screenshots
+
+
+Learning Outcomes
+Through this project, I have learned:
+
+Frontend Development: Improved skills in HTML, CSS, and JavaScript to create a responsive and visually appealing interface.
+Graphic Design and color theory: Learned about user-centric design principles to enhance user experience.
+Version Control: Learnt how to use Git for version control, branching, and collaboration.
+
+
+Conclusion
+This project has been an enriching experience, allowing for practical application of various web development skills while contributing to the improvement of the school's digital presence.
