@@ -1,3 +1,4 @@
+<!--Miscellanous file which i used for experimentation.-->
 <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,13 +79,13 @@
 <!-- </body>
 </html> -->
 
-
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Image Slideshow</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="styles.css">  Link to your CSS file 
 </head>
 <body>
 
@@ -95,60 +96,9 @@
     <div class="slideshow-items">
       <img src="path/to/image2.jpg" alt="Image 2">
     </div>
-    <!-- Add more slideshow items as needed -->
+  Add more slideshow items as needed 
   </div>
 
-  <script src="script.js"></script> <!-- Link to your JavaScript file -->
+  <script src="script.js"></script>  Link to your JavaScript file 
 </body>
-</html>
-
-/* Same CSS as the gallery */
-.slideshow {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
-}
-
-.slideshow-items {
-  overflow: hidden;
-  border-radius: 5px;
-}
-
-.slideshow-items img {
-  width: 100%;
-  height: auto;
-  opacity: 0; /* Initially hide images */
-  transition: opacity 0.5s ease-in-out;
-}
-
-.slideshow-items.active img {
-  opacity: 1; /* Show only active image */
-}
-
-const slideshowItems = document.querySelectorAll('.slideshow-items');
-
-let currentIndex = 0;
-const intervalTime = 3000; // Change slide every 3 seconds
-
-function nextSlide() {
-  // Reset all slides to hidden
-  slideshowItems.forEach(item => {
-    item.classList.remove('active');
-  });
-
-  // Show the next slide
-  slideshowItems[currentIndex].classList.add('active');
-
-  // Move to the next slide index
-  currentIndex++;
-
-  // Reset index to the first slide if it exceeds the number of slides
-  if (currentIndex === slideshowItems.length) {
-    currentIndex = 0;
-  }
-
-  setTimeout(nextSlide, intervalTime);
-}
-
-// Start the slideshow
-nextSlide();
+</html> -->
