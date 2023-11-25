@@ -27,5 +27,13 @@ Graphic Design and color theory: Learned about user-centric design principles to
 Version Control: Learnt how to use Git for version control, branching, and collaboration.
 
 
-Conclusion
-This project has been an enriching experience, allowing for practical application of various web development skills while contributing to the improvement of the school's digital presence.
+Working on this project has been an exciting journey filled with learning opportunities. It's been more than just revamping a website; it's been about honing skills and applying them creatively.
+
+Throughout this endeavor, I've delved into the intricacies of web development, learning how to make user-friendly interfaces and ensuring information accessibility. It's been a fantastic chance to merge design and functionality.
+
+While there's always room for improvement, this project marks a significant milestone in my understanding of web development. It's not just about code; it's about creating an experience that users will appreciate.
+
+Looking back, I can see how far I've come, not just in technical skills but also in project management and collaboration. I'm excited to take these lessons forward into future endeavors.
+
+
+
