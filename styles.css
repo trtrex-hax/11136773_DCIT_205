@@ -377,8 +377,8 @@ h4 {
 hr {
     width: 80%;
     border-color: gold;
-    border-width: 2px;
-    margin: 20px auto;
+    /* border-width: ; */
+    margin: 5px auto;
 }
 
 /* .home-box{
